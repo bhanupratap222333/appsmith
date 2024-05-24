@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "AssignApplications",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "AssignApplications_JSObject1",
+  "deleted": false,
+  "gitSyncId": "66483d2825a96e6b2e2e8cfe_8cd3f8be-a0fc-4554-85d3-f099fee9004f"
+}

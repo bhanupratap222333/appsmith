@@ -1,0 +1,71 @@
+{
+  "unpublishedPage": {
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1210,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Dashboard_Find_Customers_data1",
+              "name": "Find_Customers_data1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "{ number: {$regex: tbl_customers.searchText, '$options' : 'i'} }",
+                "tbl_customers.pageOffset",
+                "tbl_customers.pageSize",
+                " tbl_customers.sortOrder.column ? { [tbl_customers.sortOrder.column]: tbl_customers.sortOrder.order !== \"desc\" ? 1 : -1 } : {}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_Total_record_Customers_data1",
+              "name": "Total_record_Customers_data1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "{ number: {$regex: tbl_customers.searchText} }"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Dashboard",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "66483d2825a96e6b2e2e8cfe_4ea0de48-db5e-44f4-adf2-35c6b730a872"
+}

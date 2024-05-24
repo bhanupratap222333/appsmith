@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "AssignApplications",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "collection",
+        "value": "\"customer_data\""
+      },
+      {
+        "name": "updateMany",
+        "value": "{\n  filter: {\n    _id: {\n      $in: Table1.selectedRow\n    }\n  },\n  update: {\n    $set: {\n      assignedTo: MultiSelect1.selectedOptionValues\n    }\n  }\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "AssignApplications_JSObject2",
+  "deleted": false,
+  "gitSyncId": "66483d2825a96e6b2e2e8cfe_76949c18-256a-46ba-8bde-90a7a213a49d"
+}

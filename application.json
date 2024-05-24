@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Informaction",
+      "isDefault": true
+    },
+    {
+      "id": "Login_page",
+      "isDefault": false
+    },
+    {
+      "id": "AssignApplications",
+      "isDefault": false
+    },
+    {
+      "id": "Status_completed",
+      "isDefault": false
+    },
+    {
+      "id": "Status_pending",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#F1DEFF",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    },
+    {
+      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
